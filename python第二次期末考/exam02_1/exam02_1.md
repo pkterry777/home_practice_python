@@ -1,31 +1,31 @@
-# �T���ΧP�_ #
+# 三角形判斷 #
 
-## ���� ##
+## 說明 ##
 
-���ϥΪ̨̧ǿ�J�T�Ӿ�ơA�N���T���Ϊ��T������C<br>
-�ЧP�_�G<br>
+讓使用者依序輸入三個整數，代表三角形的三個邊長。<br>
+請判斷：<br>
 <ol>
-<1s>�P�_�O�_�ন�T���ΡA�Y�i�H�K��X�uTrue�v;�Y����K��X�uFalse�v<b>�õ����{��</b>�C</ls>
-<1s>�P�_�O�_�������T���ΡA�Y�������T���ΫK��X�uRight Triangle�v�A�_�h��X�uNon-Right Triangle�v�C</ls>
+<1i>判斷是否能成三角形，若可以便輸出「True」;若不行便輸出「False」<b>並結束程式</b>。</1i>
+<1i>判斷是否為直角三角形，若為直角三角形便輸出「Right Triangle」，否則輸出「Non-Right Triangle」。</1i>
 </ol>
 <br>
-1. �T���Ϊ��P�_��k�G�u����������M<b>�j��</b>�ĤT��v<br>
-2. �����T���Ϊ��P�_��k�G�u��u�䥭��M = �̪��䥭��v(a^2 + b^2 = c^2)<br>
-*^�N������<br>
+1. 三角形的判斷方法：「任兩邊長的和<b>大於</b>第三邊」<br>
+2. 直角三角形的判斷方法：「兩短邊平方和 = 最長邊平方」(a^2 + b^2 = c^2)<br>
+*^代表平方<br>
 <br>
 ![](triangle.gif) <br>
 
 
 ## Input Format ##
 
-���<br>
-���<br>
-���<br>
+整數<br>
+整數<br>
+整數<br>
 
 ## Output Format ##
 
-True �� False<br>
-Right Triangle �� Non-Right Triangle (�p�G�W�D�OTrue�~�|��ܳo�q) <br>
+True 或 False<br>
+Right Triangle 或 Non-Right Triangle (如果上題是True才會顯示這段) <br>
 
 ## Sample Input 1 ##
 ```
@@ -54,8 +54,8 @@ False
 ## Hint ##
 
 ```
-1. ���Ĥ@�D�P�_��False�ɡA�N�n�����{���C
-2. ��X�̥��ݨS������Ů�C
-3. ��������M����ĤT��ɴN���O�T���ΡC
+1. 當第一題判斷為False時，就要結束程式。
+2. 輸出最末端沒有任何空格。
+3. 兩邊長的和等於第三邊時就不是三角形。
 
 ```
